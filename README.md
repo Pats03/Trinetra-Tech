@@ -1,3 +1,4 @@
+
 # Trinetra-Tech 🌱  
 
 **Trinetra-Tech** is a **carbon footprint monitoring and analysis system** designed to help businesses and individuals track, reduce, and optimize their environmental impact. The system collects data on **energy consumption, transportation, and waste generation**, providing real-time analytics and sustainability insights.  
@@ -29,7 +30,7 @@
 
 1. **Clone the repository:**  
    ```bash
-  https://github.com/Pats03/Trinetra-Tech.git
+   https://github.com/Pats03/Trinetra-Tech.git
    cd Trinetra-Tech
 2. Create and activate a virtual environment (for Python dependencies):
    python -m venv venv
