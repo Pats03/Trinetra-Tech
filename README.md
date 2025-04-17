@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Trinetra-Tech 🌱  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Trinetra-Tech** is a **carbon footprint monitoring and analysis system** designed to help businesses and individuals track, reduce, and optimize their environmental impact. The system collects data on **energy consumption, transportation, and waste generation**, providing real-time analytics and sustainability insights.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features  
 
-### `npm start`
+- **Carbon Footprint Calculator:** Estimates emissions based on daily activities.  
+- **Data Visualization:** Interactive dashboards showing emissions trends.  
+- **Real-time Monitoring:** Tracks energy, fuel, and resource consumption.  
+- **AI-Powered Insights:** Recommends eco-friendly alternatives based on usage data.  
+- **Sustainability Goals Tracking:** Allows users to set and monitor environmental targets.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack  
 
-### `npm test`
+- **Frontend:** React.js, TailwindCSS, Bootstrap  
+- **Backend:** Node.js, Flask, Express.js  
+- **Database:** MongoDB, PostgreSQL (for emission logs)  
+- **AI & Data Analytics:** Python (Pandas, NumPy, TensorFlow)  
+- **APIs & Integrations:** Google Maps API (for transportation impact), OpenWeather API (for climate data)  
+- **Deployment:** Docker, AWS, Kubernetes  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Installation  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**  
+   ```bash
+  https://github.com/Pats03/Trinetra-Tech.git
+   cd Trinetra-Tech
+2. Create and activate a virtual environment (for Python dependencies):
+   python -m venv venv
+   source venv/bin/activate  # Windows: 'venv\Scripts\activate'
+3. Install backend dependencies:
+   pip install -r requirements.txt
+4. Start the Flask backend:
+   python app.py
+5. Navigate to the frontend directory & install dependencies:
+   cd client
+   npm install
+6. Run the React frontend:
+   npm start
+7. Open your browser and visit http://localhost:3000 to access the dashboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌 Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Log your daily activities: Input transportation, energy, and resource consumption.
 
-### `npm run eject`
+View carbon impact: Analyze real-time emissions data on your dashboard.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Get sustainability recommendations: AI-driven suggestions for reducing your footprint.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Track progress: Set goals and monitor improvements over time
